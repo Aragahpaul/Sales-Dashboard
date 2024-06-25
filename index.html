@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Design</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- icon boxicons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo"></div>
+      <ul class="menu">
+        <li class="active">
+          <a href="#">
+            <i class="bx bx-tachometer"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx bxs-user"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx bx-stats"></i>
+            <span>Statistics</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx bxs-briefcase"></i>
+            <span>Careers</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx bx-question-mark"></i>
+            <span>FAQ</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx bxs-star"></i>
+            <span>Testimonials</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx bxs-cog"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+
+        <li class="logout">
+          <a href="#">
+            <i class="bx bx-log-out"></i>
+            <span>Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main--content">
+      <div class="header--wrapper">
+        <div class="header--title">
+          <span>Primary</span>
+          <h2>Dashboard</h2>
+        </div>
+        <div class="user--info">
+          <div class="search--box">
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="search" />
+          </div>
+          <img src="img/profile pics.jpg" />
+        </div>
+      </div>
+      <div class="card--container">
+        <h3 class="main--title">Today's data</h3>
+        <div class="card--wrapper">
+          <div class="payment--card light-red">
+            <div class="card--header">
+              <div class="amount">
+                <span class="title">Payment amount</span>
+                <span class="amount--value">$500.00</span>
+              </div>
+              <i class="bx bx-dollar icon"></i>
+            </div>
+            <span class="card--detail">**** **** **** 3484</span>
+          </div>
+
+          <div class="payment--card light-purple">
+            <div class="card--header">
+              <div class="amount">
+                <span class="title">Payment order</span>
+                <span class="amount--value">$200.00</span>
+              </div>
+              <i class="bx bx-list-ul icon dark-purple"></i>
+            </div>
+            <span class="card--detail">**** **** **** 5532</span>
+          </div>
+
+          <div class="payment--card light-green">
+            <div class="card--header">
+              <div class="amount">
+                <span class="title">Payment Customers</span>
+                <span class="amount--value">$350.00</span>
+              </div>
+              <i class="bx bxs-group icon dark-green"></i>
+            </div>
+            <span class="card--detail">**** **** **** 4532</span>
+          </div>
+
+          <div class="payment--card light-blue">
+            <div class="card--header">
+              <div class="amount">
+                <span class="title">Payment Proceeded</span>
+                <span class="amount--value">$150.00</span>
+              </div>
+              <i class="bx bx-check icon dark-blue"></i>
+            </div>
+            <span class="card--detail">**** **** **** 5645</span>
+          </div>
+        </div>
+      </div>
+      <div class="tabular--wrapper">
+        <h3 class="main--title">Finance data</h3>
+        <div class="table--container">
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Transaction Type</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>2023-05-01</td>
+                <td>Expenses</td>
+                <td>Office Supplies</td>
+                <td>Office Expenses</td>
+                <td>$250</td>
+                <td>Pending</td>
+                <td><button>Edit</button></td>
+              </tr>
+
+              <tr>
+                <td>2023-05-02</td>
+                <td>Income</td>
+                <td>Client Payment</td>
+                <td>$500</td>
+                <td>Sales</td>
+                <td>Completed</td>
+                <td><button>Edit</button></td>
+              </tr>
+
+              <tr>
+                <td>2023-05-03</td>
+                <td>Expenses</td>
+                <td>Travel Expenses</td>
+                <td>$250</td>
+                <td>Travel</td>
+                <td>Pending</td>
+                <td><button>Edit</button></td>
+              </tr>
+
+              <tr>
+                <td>2023-05-04</td>
+                <td>Income</td>
+                <td>Client Payment</td>
+                <td>$500</td>
+                <td>Sales</td>
+                <td>Completed</td>
+                <td><button>Edit</button></td>
+              </tr>
+
+              <tr>
+                <td>2023-05-05</td>
+                <td>Income</td>
+                <td>Client Payment</td>
+                <td>$600</td>
+                <td>Sales</td>
+                <td>Pending</td>
+                <td><button>Edit</button></td>
+              </tr>
+
+              <tr>
+                <td>2023-05-05</td>
+                <td>Expenses</td>
+                <td>Office Supplies</td>
+                <td>$100</td>
+                <td>Supplies</td>
+                <td>Completed</td>
+                <td><button>Edit</button></td>
+              </tr>
+              <tr>
+                <td>2023-05-06</td>
+                <td>Expenses</td>
+                <td>Travel Expenses</td>
+                <td>$250</td>
+                <td>Travel</td>
+                <td>Completed</td>
+                <td><button>Edit</button></td>
+              </tr>
+              <tr>
+                <td>2023-05-06</td>
+                <td>Income</td>
+                <td>Client Payment</td>
+                <td>$600</td>
+                <td>Sales</td>
+                <td>Completed</td>
+                <td><button>Edit</button></td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td colspan="7">Total: $1,000</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
